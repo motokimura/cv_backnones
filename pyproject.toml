@@ -1,0 +1,17 @@
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[project]
+name = "cv_backbones"
+description = ""
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "timm==1.0.9",
+]
+dynamic = ["version"]
+
+[tool.pdm.version]
+source = "file"
+path = "cv_backbones/version.py"
