@@ -34,7 +34,7 @@ def custom_efficientnet_lite0(pretrained=False, **kwargs):
     pretrained_cfg["hf_hub_id"] = None
     pretrained_cfg["architecture"] = "custom_efficientnet_lite0"
     pretrained_cfg["tag"] = None
-    pretrained_cfg["file"] = "/home/motoki_kimura/tmp/timm_efficientnet_lite0.pth"  # TODO: use hf hub instead
+    pretrained_cfg["file"] = "/home/motoki_kimura/tmp/efficientnet_lite0_ra-37913777.pth"  # TODO: use hf hub instead
     model.pretrained_cfg = pretrained_cfg
 
     if pretrained:
